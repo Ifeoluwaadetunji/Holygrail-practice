@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="holyg.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- nav-bar section -->
+       <header>
+      <div id="brand"><a href="/">MyCompany</a></div>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+    <!-- Three Columns Section -->
+    <div class="main">
+        <div class="layout right"></div>
+        <div class="layout mid"></div>
+        <div class="layout left"></div>
+    </div>
+
+
+
+
+    <!-- Footer Section -->
+
+      <footer class="footer">
+  <div class="newsletter-section">
+    <h3>Subscribe to our newsletter</h3>
+    <form class="newsletter-form">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Email address">
+      <label for="submit-button"></label>
+      <button type="submit" id="submit-button" >→</button>
+    </form>
+  </div>
+  
+  <nav class="footer-nav">
+    <div class="nav-column">
+      <h4>Pages</h4>
+      <a href="#">Welcome</a>
+      <a href="#">Corporate Solutions</a>
+      <a href="#">Leisure Travel</a>
+    </div>
+    
+    <div class="nav-column">
+      <h4>Terms / Conditions</h4>
+      <a href="#">ATOL</a>
+      <a href="#">ABTA</a>
+      <a href="#">Destination Advice</a>
+      <a href="#">COMPLAINT</a>
+    </div>
+    
+    <div class="nav-column">
+      <h4>About</h4>
+      <a href="#">Blog</a>
+      <a href="#">Reach out</a>
+      <a href="#">Make an Enquiry</a>
+    </div>
+    
+    <div class="nav-column">
+      <h4>Help</h4>
+      <a href="#">FAQs</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </nav>
+</footer>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
